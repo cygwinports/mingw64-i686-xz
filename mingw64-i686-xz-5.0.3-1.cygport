@@ -5,3 +5,6 @@ inherit cross
 DESCRIPTION="liblzma for MinGW-w64 Win32 toolchain"
 HOMEPAGE="http://tukaani.org/xz/"
 SRC_URI="http://tukaani.org/xz/xz-${PV}.tar.xz"
+
+# setup requires static libraries
+CYGCONF_ARGS="--enable-static"
