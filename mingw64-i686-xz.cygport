@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross
 
 NAME="mingw64-i686-xz"
-VERSION=5.0.8
+VERSION=5.2.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="liblzma for MinGW-w64 Win32 toolchain"
